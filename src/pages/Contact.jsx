@@ -38,17 +38,17 @@ export default function Contact({ onToast }) {
             <h2 className="text-lg font-bold text-slate-900 mb-6">Contact Channels</h2>
             <div className="space-y-4">
               <div className="flex items-center space-x-3.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-650 shrink-0">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 shrink-0 border border-indigo-100">
                   <Phone size={16} />
                 </div>
                 <div>
                   <span className="text-[10px] text-slate-400 block font-bold">TELEPHONE DIRECT LINE</span>
-                  <span className="text-sm font-semibold text-slate-700">+1 (800) AERO-CAB</span>
+                  <span className="text-sm font-semibold text-slate-700">+91 96162 12526</span>
                 </div>
               </div>
 
               <div className="flex items-center space-x-3.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-650 shrink-0">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 shrink-0 border border-indigo-100">
                   <Mail size={16} />
                 </div>
                 <div>
@@ -58,17 +58,17 @@ export default function Contact({ onToast }) {
               </div>
 
               <div className="flex items-center space-x-3.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-650 shrink-0">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 shrink-0 border border-indigo-100">
                   <MapPin size={16} />
                 </div>
                 <div>
                   <span className="text-[10px] text-slate-400 block font-bold">BUSINESS HQ ADDRESS</span>
-                  <span className="text-sm font-semibold text-slate-700">One Infinite Loop, Cupertino, CA 95014</span>
+                  <span className="text-sm font-semibold text-slate-700">Unit No. 671, Aggarwal Millennium Tower 2, NSP, Pitampura</span>
                 </div>
               </div>
 
               <div className="flex items-center space-x-3.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-650 shrink-0">
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-indigo-50 text-indigo-600 shrink-0 border border-indigo-100">
                   <Clock size={16} />
                 </div>
                 <div>
@@ -86,7 +86,7 @@ export default function Contact({ onToast }) {
             <div className="relative z-10 flex justify-between items-start text-white">
               <div>
                 <h4 className="text-sm font-bold tracking-tight">HQ Map Location</h4>
-                <p className="text-[10px] text-slate-400">Cupertino Central District</p>
+                <p className="text-[10px] text-slate-400">NSP, Pitampura</p>
               </div>
               <span className="rounded bg-cyan-500/10 border border-cyan-500/20 px-2 py-0.5 text-[8px] font-bold text-cyan-400 uppercase tracking-widest">Active Node</span>
             </div>
@@ -109,7 +109,7 @@ export default function Contact({ onToast }) {
           <div className="rounded-2xl glass-panel p-6 sm:p-8 shadow-xl border border-slate-200/60 hover:shadow-2xl transition-all duration-500 min-h-[400px] flex flex-col justify-center">
             {submitted ? (
               <div className="text-center space-y-4 animate-[slideUp_0.5s_cubic-bezier(0.16,1,0.3,1)_forwards]">
-                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-indigo-50 border border-indigo-200 text-indigo-650 mb-2 animate-bounce">
+                <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-indigo-50 border border-indigo-200 text-indigo-600 mb-2 animate-bounce">
                   <CheckCircle size={26} />
                 </div>
                 <div>
@@ -161,7 +161,7 @@ export default function Contact({ onToast }) {
 
                   <button
                     type="submit"
-                    className="w-full flex items-center justify-center space-x-2 rounded-xl bg-gradient-to-r from-indigo-650 to-cyan-500 py-3.5 text-sm lg:text-base font-bold text-white shadow-lg shadow-indigo-600/20 hover:from-indigo-700 hover:to-cyan-600 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+                    className="w-full flex items-center justify-center space-x-2 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 py-3.5 text-sm lg:text-base font-bold text-white shadow-lg shadow-indigo-600/20 hover:from-indigo-700 hover:to-cyan-600 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
                   >
                     <span>Send Message</span>
                     <Send size={16} />
